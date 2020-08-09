@@ -1,0 +1,151 @@
+﻿<!doctype html>
+<html lang="esp" >
+<head>
+      <title> CONTACTO INEIN</title>
+	  <meta charset="utf-8">
+	  <link rel="stylesheet" href="menu45.css">
+	  <link rel="stylesheet" href="modal.css">
+	  <link rel="stylesheet" href="formulario.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	
+	  	  <link rel="stylesheet" href="bootstrap-reboot.min.css" type="text/css">
+      <link rel="stylesheet" href="fonts/estilofuene.css" type="text/css">
+       <link rel="stylesheet" href="iconoarriva/iconoarriva.css" type="text/css">
+     <link rel="stylesheet" href="iconoarriva/fonts.css" type="text/css">
+	 <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+	  <link rel="stylesheet" href="respon.css" type="text/css">
+   <script type="text/javascript" src="escrip.js"></script>
+   <script type="text/javascript" src="menuactivo.js"></script>
+   <script src="carrusel.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+   type="text/javascript" charset="utf-8"></script>
+   <script type="text/javascript" src ="suaveancla.js"></script>
+    <script type="text/javascript" src ="arriba.js"></script>
+<script src="js/eskju.jquery.scrollflow.min.js"></script>	  
+		 <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto+Condensed" rel="stylesheet">
+	  <link rel="shortcut icon" href="img/inein.ico">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styl.css">
+   
+</head>
+<body>
+
+<div id="agrupar">
+
+<header id="cabecera">
+
+      <div class="logo">
+       <img src="logo.png" width="90px" alt="logotipo inein">
+     </div>
+      <div class ="titulo">
+     <img src="img/CA1.png" width="300px" alt="logotipo inein">
+    </div>	  
+	  <div class="logoface"> <a href="http://www.facebook.com"><span class="icon-facebook">Facebook</a></span></div>
+	  <div class="logotuiter">
+	   <a href="www.twtter.com"><span class="icon-twitter">Twitter
+	 </a> </span></div>
+
+	  <div class="subtitulo1">
+	  <p class="ti2"><a href="login.php">DOCENTES</a></p>
+	  </div>
+	   <div class="subtitulo2">
+	  <p class="ti3"><a href="alumnos.html">ALUMNOS</a></p>
+	  </div>
+<!--aqui el header-->
+<input type="checkbox" id="btn-menu">
+<label class="icono" for="btn-menu">
+     <i class="icon-menu"> </i>
+
+</label>
+<nav class="contacto">
+<ul>
+     <li class="estas"> <a href="index.html" class="index"><span class="icon-home"></span> INICIO</a></li>
+	 <li > <a href="acerca.html"class="acercade"><span class="icon-mail2"></span> ACERCA DE</a></li>
+	 <li> <a href="curso.html" class="cursos"><span class="icon-book"></span> CURSOS</a></li>
+	 <li> <a href="galeria.html" class="galeria1"><span class="icon-camera"></span> GALERIA</a></li>
+	 <li class="vertical"> <a href="contacto.html" class="contacto"> <span class="icon-user"></span>CONTACTO</a></li>
+	</ul>
+</nav>
+</header>
+
+<!-- formulario -->
+
+
+
+<div class="mapachico">
+<h2>Localiza nuestra institución en Sesecapa</h2>
+<p><strong>Visitanos aqui </strong></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15386.214688388658!2d-92.82779735!3d15.400639949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6faebf5adc131e26!2sINEIN+COMPUTACION!5e0!3m2!1ses-419!2smx!4v1554503805070!5m2!1ses-419!2smx" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<!-- formulario de contacto -->
+
+	
+<div class="cuerpo">
+
+<h3>CONTÁCTANOS  </h3>
+<p>Rellena el siguiente formulario con tus datos y tu mensaje:<br><label class="etiqueta">Es obligatorio ingresar datos: <span>*</span></label></p> 
+<form action="envia.php" method="post" class="form-consulta"> 
+		<label class="etiqueta">Nombre y apellido: <span>*</span>
+			<input class="entrada" type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+		</label>
+		
+		<label class="etiqueta">Email: <span>*</span>
+			<input class="entrada" type="email" name="email" placeholder="Ingresa tu Email/correo electrónico" class="campo-form" required>
+		</label>
+		
+		<label class="etiqueta">Consulta:
+			<textarea class="entrada2" name="consulta" class="campo-form"></textarea>
+		</label>
+
+	<input   type="submit" value="Enviar"   class="btn-form" > 		
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Mi modal</h2>
+		<p>Este es un ejemplo de modal, creado gracias al poder de CSS3.</p>
+		<p>Puedes hacer un montón de cosas aquí, como alertas o incluso crear un formulario de registro aquí mismo.</p>
+	</div>
+</div>
+	</form>
+	
+
+
+<p>O si lo prefieres márcanos dentro los siguientes horarios:<br>
+martes a domingo: 8:00 am a 4:00 pm<br>
+Teléfono: 918 1072407.
+</p>
+	
+</div>
+
+</div>
+<footer class="pie">
+<article class="contenedor">
+<p>INEIN COMPUTACIÓN <br>
+Sesecapa, Chiapas;2019<br><p>LA TECNOLOGÍA ES PODER PREPARATE PARA UN MEJOR FUTURO</p>
+Todos los derechos reservados</p>
+
+
+</article>
+
+<article class="contenedor2">
+<div class="logofacepie"> <a href="https://www.facebook.com/inein.infor"><span class="icon-facebook">Facebook</a></span></div>
+	  <div class="logotuiterpie">
+	   <a href="http://www.twitter.com"><span class="icon-twitter">Twitter
+	 </a> </span></div>
+<div class="logoinstagram">
+	   <a href="http://www.twitter.com"><span class="icon-instagram">Instagram
+	 </a> </span></div>
+<div class="logowhatsapp">
+	   <a href="http://www.twitter.com"><span class="icon-whatsapp">Whatsapp
+
+</article>
+
+
+</footer>
+</body>
+</html>
